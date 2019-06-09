@@ -39,6 +39,10 @@ export class DecoderComponent implements OnInit {
     this.newGame();
   }
 
+get gameComplete(): boolean  {
+  return this.gameStatus.gameComplete;
+
+}
   resetSource() {
     const basePath = `${this.baseUrl}${this.iconSetDirectory}/src`;
     this.src = [];
