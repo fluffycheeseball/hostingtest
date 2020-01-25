@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\git\\netcore3\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {}
+    "C:\\git\\hostingtest\\api\\WebApplication1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "C:\\git\\netcore3\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {
+    "C:\\git\\hostingtest\\api\\WebApplication1\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\git\\netcore3\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "C:\\git\\hostingtest\\api\\WebApplication1\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "C:\\git\\netcore3\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+        "projectPath": "C:\\git\\hostingtest\\api\\WebApplication1\\WebApplication1.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\git\\netcore3\\WebApplication1\\WebApplication1\\obj\\",
+        "outputPath": "C:\\git\\hostingtest\\api\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
