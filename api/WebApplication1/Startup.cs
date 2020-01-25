@@ -21,6 +21,13 @@ namespace WebApplication1
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(options => options.AddPolicy("AllowAllCorsPolicy", builder =>
+            {
+                builder.AllowAnyOrigin()
+                       .AllowAnyMethod()
+                       .AllowAnyHeader();
+            }));
+
             services.AddControllers();
             var cachingSection = Configuration.GetSection(nameof(Serilog));
             services.AddSingleton<ILogger>(BuildLogger);
@@ -48,6 +55,7 @@ namespace WebApplication1
             app.UseHttpsRedirection();
 
             app.UseRouting();
+            app.UseCors("AllowAllCorsPolicy");  //should be after UseRouting and before UseEndpoint
 
             app.UseAuthorization();
 
