@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\api",
+    "\\api\\Data\\Data",
+    "\\api\\DBI",
+    "\\api\\Interfaces\\Interfaces",
+    "\\api\\Interfaces\\Interfaces\\Models",
+    "\\api\\Services\\Extension Methods",
+    "\\api\\Services\\Models",
+    "\\api\\SqlData"
+  ],
+  "SelectedNode": "\\api\\WebApplication1.sln",
+  "PreviewInSolutionExplorer": false
+}
